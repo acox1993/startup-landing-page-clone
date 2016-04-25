@@ -1,8 +1,22 @@
+* {
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: 0.03em;
+	-webkit-font-smoothing: antialiased
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 body {
     background-color: LightGray;
 }
 section {
-    border: 1px solid Chocolate;
+    /*border: 1px solid Chocolate;*/
 }
 
 /*navigation section*/
@@ -18,53 +32,44 @@ section {
     width: 62em;
     height: 4.5em;
     margin: 0 auto;
+    padding: 0em 1em;
+    box-sizing: border-box;
 }
 
-.logo {
-	margin: 1em;
-
-}
-
-
-/*logo*/
-/*when sceen is shrinked the navigation moves under the logo*/
-/*.navigation img {
-	height: 3em;
-	margin-left: 20%;
-	margin-top: 1em;
-	float:left;
-	display: inline-block;
-}
-
-.navigation ul {
-	display: inline-block;
-	margin-right: 6em;
-	margin-top: 1em;
+.top-navigation .links {
 	float: right;
 }
 
-.navigation ul li {
+.top-navigation .logo {
+	margin: 1em 0em;
+
+}
+
+.links li {
 	display: inline-block;
-	margin: 1em;
+	margin-top: 1em;
+	margin-left: 1.5em;
 
-}*/
-
-/*meet karma link*/
-/*why can't i get this to be black?*/
-/*.navigation ul li:first-child {
-	font-weight: bold;
-	color: black;
 }
-
-a {
-	text-decoration: none;
-	color: #969696;
-}
-
-a:hover {
-	text-decoration: none;
+/*active link in nav*/
+.top-navigation .links > .active a {
 	color: #000;
-}*/
+	font-weight: 500;
+	text-decoration: none;
+}
 
+.links a {
+	text-decoration: none;
+	color: #838994;
+	-webkit-transition: color .5s ease;
+	-moz-transition: color .5s ease;
+	-o-transition: color .5s ease;
+	transition: color .5s ease;
+}
 
+.links a:hover {
+	color: #000;
+	text-decoration: none;
+	cursor: pointer;
+}
 
