@@ -1,0 +1,70 @@
+body {
+    background-color: LightGray;
+}
+section {
+    border: 1px solid Chocolate;
+}
+
+/*navigation section*/
+.top-navigation {
+	display: inline-block;
+	height: 5em;
+	width: 100%;
+	background-color: #fff;
+	
+}
+
+.top-navigation > .content {
+    width: 62em;
+    height: 4.5em;
+    margin: 0 auto;
+}
+
+.logo {
+	margin: 1em;
+
+}
+
+
+/*logo*/
+/*when sceen is shrinked the navigation moves under the logo*/
+/*.navigation img {
+	height: 3em;
+	margin-left: 20%;
+	margin-top: 1em;
+	float:left;
+	display: inline-block;
+}
+
+.navigation ul {
+	display: inline-block;
+	margin-right: 6em;
+	margin-top: 1em;
+	float: right;
+}
+
+.navigation ul li {
+	display: inline-block;
+	margin: 1em;
+
+}*/
+
+/*meet karma link*/
+/*why can't i get this to be black?*/
+/*.navigation ul li:first-child {
+	font-weight: bold;
+	color: black;
+}
+
+a {
+	text-decoration: none;
+	color: #969696;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #000;
+}*/
+
+
+
