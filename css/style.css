@@ -25,11 +25,12 @@ section {
 	height: 5em;
 	width: 100%;
 	background-color: #fff;
+	position: fixed;
 	
 }
 
 .top-navigation > .content {
-    width: 62em;
+    width: 60%;
     height: 4.5em;
     margin: 0 auto;
     padding: 0em 1em;
@@ -73,3 +74,9 @@ section {
 	cursor: pointer;
 }
 
+.main {
+	background-image: url("../images/first-background.jpg");
+	background-size: cover;
+	background-position: center bottom;
+	height: 46em;
+}
