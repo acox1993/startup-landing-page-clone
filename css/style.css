@@ -26,6 +26,7 @@ section {
 	width: 100%;
 	background-color: #fff;
 	position: fixed;
+	top: 0;
 	
 }
 
@@ -79,4 +80,45 @@ section {
 	background-size: cover;
 	background-position: center bottom;
 	height: 46em;
+	overflow: hidden;
+}
+
+.title h1 {
+	margin-top: 5.8em;
+	margin-bottom: -.2em;
+	color: #fff;
+	text-align: center;
+	font-weight: 300;
+	font-size: 3.1em;
+	letter-spacing: .01em;
+}
+
+.title h3 {
+	color: #fff;
+	text-align: center;
+	font-weight: 300;
+	font-size: 1.563em;
+	letter-spacing: .01em;
+}
+
+.button {
+	text-align: center;
+	margin-top: 15px;
+	color: #fff;
+
+}
+
+.button button {
+	background-color: #f15a29;
+	border-radius: 6px;
+	font-size: 20px;
+	font-weight: 400;
+	border-style: none;
+	color: #fff;
+	padding: 1em 1.5em;
+}
+
+.button button:hover {
+	background-color: #D9400E;
+	cursor: pointer;
 }
